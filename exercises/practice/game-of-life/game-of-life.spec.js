@@ -18,8 +18,8 @@ function next(input) {
   const inputBufferOffset = 64;
   const inputBufferCapacity = 256;
   const cells = input.flat();
-  const rows = input.length;
-  const cols = cells.length / rows;
+  const rowCount = input.length;
+  const columnCount = cells.length / rowCount;
 
   if (cells.length > inputBufferCapacity)
     throw new Error(`Matrix is too large for buffer of size ${inputBufferCapacity} byte`);
@@ -34,8 +34,8 @@ function next(input) {
   // Pass offset, cols and rows to WebAssembly function
   const outputOffset = currentInstance.exports.next(
     inputBufferOffset,
-    cols,
-    rows
+    rowCount,
+    columnCount
   );
 
   const outputSegment = currentInstance.get_mem_as_u8(
@@ -46,7 +46,7 @@ function next(input) {
   // decode the same matrix from the returned offset
   const output = [...outputSegment.values()].reduce(
       (board, cell) => {
-          if (board.length === 0 || board.at(-1).length === cols) board.push([]);
+          if (board.length === 0 || board.at(-1).length === columnCount) board.push([]);
           board.at(-1).push(cell);
           return board;
       },
