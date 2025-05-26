@@ -30,6 +30,35 @@
     ]
   },
   "exercises": {
+    "concept": [
+      {
+        "slug": "lasagna",
+        "name": "lasagna",
+        "uuid": "06558721-2b23-4fdb-9d1e-d1a1ac7eb9d1",
+        "concepts": [
+          "basics"
+        ],
+        "prerequisites": []
+      },
+      {
+        "slug": "annalyns-infiltration",
+        "name": "annalyns-infiltration",
+        "uuid": "8a6737a7-1bcf-4406-961f-4548486afd3a",
+        "concepts": [
+          "booleans"
+        ],
+        "prerequisites": [
+          "basics"
+        ]
+      },
+      {
+        "slug": "freelancer-rates",
+        "name": "freelancer-rates",
+        "uuid": "21433295-72c5-4fef-a319-13e5f5a40337",
+        "concepts": [],
+        "prerequisites": []
+      }
+    ],
     "practice": [
       {
         "slug": "armstrong-numbers",
@@ -705,6 +734,13 @@
       }
     ]
   },
+  "concepts": [
+    {
+      "uuid": "d5e345ce-28c1-4ca8-9678-bd487145bf35",
+      "slug": "basics",
+      "name": "Basics"
+    }
+  ],
   "key_features": [
     {
       "title": "Simple Syntax",

@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "annalyns-infiltration.wat"
+    ],
+    "test": [
+      "annalyns-infiltration.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}

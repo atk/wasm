@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "lasagna.wat"
+    ],
+    "test": [
+      "lasagna.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}
