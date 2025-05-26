@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "freelancer-rates.wat"
+    ],
+    "test": [
+      "freelancer-rates.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}

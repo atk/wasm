@@ -1,0 +1,4 @@
+{
+  "blurb": "A boolean represents one of two values. Web assembly supports this concept using integers and binary/comparison operators",
+  "authors": ["Alex Lohr"]
+}

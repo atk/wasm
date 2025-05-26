@@ -1,0 +1,4 @@
+{
+  "blurb": "Basics contains the minimal knowledge required to get started in Web Assembly: modules, functions, declarations and exposing entities.",
+  "authors": ["Alex Lohr"]
+}

@@ -1,22 +1,24 @@
 {
-  "name": "@exercism/wasm",
+  "name": "@exercism/wasm-freelancer-rates",
   "description": "Exercism exercises in WebAssembly.",
-  "author": "Sean McBride",
+  "author": "Alex Lohr",
   "type": "module",
+  "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exercism/wasm"
+    "url": "https://github.com/exercism/wasm",
+    "directory": "exercises/concept/freelancer-rates"
   },
   "jest": {
     "maxWorkers": 1
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
-    "@exercism/babel-preset-javascript": "^0.2.1",
+    "@exercism/babel-preset-javascript": "^0.4.0",
     "@exercism/eslint-config-javascript": "^0.6.0",
     "@types/jest": "^29.5.8",
-    "@types/node": "^18.18.9",
+    "@types/node": "^20.9.1",
     "babel-jest": "^29.7.0",
     "core-js": "^3.33.2",
     "eslint": "^8.54.0",
@@ -29,6 +31,5 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./*",
     "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch ./*",
     "lint": "eslint ."
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }
