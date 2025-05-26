@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "poetry-club-door-policy.wat"
+    ],
+    "test": [
+      "poetry-club-door-policy.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}

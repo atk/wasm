@@ -28,7 +28,7 @@
   (global $LOWER_A i32 (i32.const 97))
 
   ;;
-  ;; Reply to someone when they say something or ask a question
+;; Reply to someone when they say something or ask a question
   ;;
   ;; @param {i32} offset - The offset of the input string in linear memory
   ;; @param {i32} length - The length of the input string in linear memory

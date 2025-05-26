@@ -55,8 +55,56 @@
         "slug": "freelancer-rates",
         "name": "freelancer-rates",
         "uuid": "21433295-72c5-4fef-a319-13e5f5a40337",
-        "concepts": [],
-        "prerequisites": []
+        "concepts": [
+          "numbers"
+        ],
+        "prerequisites": [
+          "basics"
+        ]
+      },
+      {
+        "slug": "darts",
+        "name": "Darts",
+        "uuid": "276fc3b9-6951-4db4-9732-996af3f86feb",
+        "concepts": [
+          "conditionals"
+        ],
+        "prerequisites": [
+          "basics",
+          "numbers"
+        ]
+      },
+      {
+        "slug": "custom-signs",
+        "name": "custom-signs",
+        "uuid": "10005d30-bcfe-48b2-897e-ec7f65acc940",
+        "concepts": ["memory"],
+        "prerequisites": ["conditionals"]
+      },
+      {
+        "slug": "poetry-club-door-policy",
+        "name": "poetry-club-door-policy",
+        "uuid": "9c0c3733-7157-40e9-88d3-e52b3b9137f0",
+        "concepts": [
+          "strings"
+        ],
+        "prerequisites": [
+          "memory"
+        ]
+      },
+      {
+        "slug": "elysses-enchantments",
+        "name": "elysses-enchantments",
+        "uuid": "8dcee48a-1a15-40b7-a580-5fa2e2689e9c",
+        "concepts": ["arrays"],
+        "prerequisites": ["memory"]
+      },
+      {
+        "slug": "pizza-order",
+        "name": "pizza-order",
+        "uuid": "7c47e2cc-02c7-4779-bbe3-ff7c57c7fc25",
+        "concepts": ["recursion"],
+        "prerequisites": ["strings", "arrays"]
       }
     ],
     "practice": [
@@ -192,14 +240,6 @@
         "slug": "collatz-conjecture",
         "name": "Collatz Conjecture",
         "uuid": "84a5d81b-f410-42d8-a7a1-d740d3957830",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 3
-      },
-      {
-        "slug": "darts",
-        "name": "Darts",
-        "uuid": "276fc3b9-6951-4db4-9732-996af3f86feb",
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
@@ -755,6 +795,46 @@
       "uuid": "d5e345ce-28c1-4ca8-9678-bd487145bf35",
       "slug": "basics",
       "name": "Basics"
+    },
+    {
+      "uuid": "c9aae59d-e884-483e-964a-3721f2727f0d",
+      "slug": "booleans",
+      "name": "Booleans"
+    },
+    {
+      "uuid": "e085db10-e9b7-4f3d-a424-59f80b899ff7",
+      "slug": "numbers",
+      "name": "Numbers"
+    },
+    {
+      "uuid": "c69913b3-000f-4aa7-b59e-caf9e369d4e9",
+      "slug": "conditionals",
+      "name": "Conditionals"
+    },
+    {
+      "uuid": "7867d296-4f84-423f-9294-de4433f85ea1",
+      "slug": "loops",
+      "name": "Loops"
+    },
+    {
+      "uuid": "7172dd08-1959-4210-8710-430dd9c39c1b",
+      "slug": "memory",
+      "name": "Memory"
+    },
+    {
+      "uuid": "08a514e7-8fd9-4b78-bb06-fa684c3d8485",
+      "slug": "strings",
+      "name": "Strings"
+    },
+    {
+      "uuid": "607ebe52-09f3-43bb-a173-2ba9acdbf229",
+      "slug": "arrays",
+      "name": "Arrays"
+    },
+    {
+      "uuid": "48a6e44b-5f2f-4aeb-8a15-fc0af203ff40",
+      "slug": "recursion",
+      "name": "Recursion"
     }
   ],
   "key_features": [

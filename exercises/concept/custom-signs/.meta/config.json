@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "custom-signs.wat"
+    ],
+    "test": [
+      "custom-signs.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}

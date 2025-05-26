@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "pizza-order.wat"
+    ],
+    "test": [
+      "pizza-order.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}

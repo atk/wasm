@@ -1,0 +1,15 @@
+{
+  "authors": [
+    "atk"
+  ],
+  "files": {
+    "solution": [
+      "elysses-enchantments.wat"
+    ],
+    "test": [
+      "elysses-enchantments.spec.js"
+    ],
+    "exemplar": []
+  },
+  "blurb": ""
+}
